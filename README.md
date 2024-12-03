@@ -36,7 +36,13 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-5. Запустите сервер
+5. Сделайте миграции базы данных
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+
+6. Запустите сервер
 ```
 python manage.py runserver
 ```
