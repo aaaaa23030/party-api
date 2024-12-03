@@ -15,6 +15,7 @@
 1. Склонируйте репозиторий
 ```commandline
 git clone https://github.com/aaaaa23030/party-api.git
+cd party-api
 ```
 2. Создайте виртуальное окружение
 ```commandline
